@@ -31,7 +31,7 @@ Ao acessar a página inicial ``localhost:4200/`` você vai se deparar com a segu
 2- Ao clicar em "Adote Agora", o sistema vai redirecionar para a página de adoção.  
 ![Alerta de deck criado](https://i.imgur.com/JxHPP3i.png)
 
-Depois que escolher seu bixinho, o alerta confirmando a adoção será exibido.
+Depois que escolher seu bixinho, o alerta confirmando a adoção será exibido. <br>
 Você também pode favoritar um bixinho <3!
 
 
