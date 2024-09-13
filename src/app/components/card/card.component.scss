@@ -30,6 +30,7 @@
       background-color: $purple;
       color: white;
       border: none;
+      width: 250px;
       padding: 9px 35px;
       border-radius: 12px;
       font-size: 16px;
@@ -42,10 +43,10 @@
       box-shadow: 6px 6px 16px rgba(121, 24, 217, 0.6);
     }
     .btn-love {
-      background-color: $purple;
+      background-color: $gray;
       color: white;
       border: none;
-      padding: 9px 35px;
+      padding: 9px 15px;
       border-radius: 12px;
       font-size: 16px;
       cursor: pointer;
@@ -53,7 +54,8 @@
       box-shadow: 4px 4px 12px rgba(121, 24, 217, 0.4);
     }
     .btn-love:hover {
-      background-color: #6600cc;
+      background: #bf80ff33;
+
       box-shadow: 6px 6px 16px rgba(121, 24, 217, 0.6);
     }
   }
