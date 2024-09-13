@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { Animals } from '../../models/animals';
 import { NgStyle } from '@angular/common';
-
+import Swal from 'sweetalert2';
 @Component({
   selector: 'app-card',
   standalone: true,
@@ -25,9 +25,26 @@ export class CardComponent {
     if (this.bgColor === defaultColor) {
       this.bgColor = activeColor;
       this.imgHeart = activeImage;
+      Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Favoritado com amor!',
+        showConfirmButton: false,
+        timer: 1500,
+      });
     } else {
       this.bgColor = defaultColor;
       this.imgHeart = defaultImage;
     }
+  }
+
+  adopt() {
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'Você ganhou um novo amiguinho!',
+      showConfirmButton: false,
+      timer: 1500,
+    });
   }
 }
