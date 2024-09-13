@@ -6,10 +6,10 @@
         Temos vários peludinhos esperando para fazer um lar mais feliz!
       </p>
     </div>
-    <div class="container-images">
+    <div class="container-images z-10">
       <div class="images">
         <img
-          class="rulesDog z-1"
+          class="rulesDog"
           src="https://i.imgur.com/VVipV7M.png"
           alt="Dog Image"
         />
@@ -17,7 +17,7 @@
     </div>
   </div>
 </div>
-<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ms-16">
+<div class="z-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ms-16">
   @for(animal of animals; track animal){
   <app-card [animal]="animal" class=""></app-card>
   }
