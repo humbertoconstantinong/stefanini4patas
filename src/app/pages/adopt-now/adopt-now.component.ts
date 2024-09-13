@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CardComponent } from '../../components/card/card.component';
-import { AnimalsService } from '../../../../apifake/services/animals.service';
 import { Animals } from '../../models/animals';
+import { AnimalsService } from '../../../services/animals.service';
 
 @Component({
   selector: 'app-adopt-now',
