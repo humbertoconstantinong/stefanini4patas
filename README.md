@@ -32,7 +32,7 @@ Ao acessar a página inicial ``localhost:4200/`` você vai se deparar com a segu
 ![Alerta de deck criado](https://i.imgur.com/JxHPP3i.png)
 
 Depois que escolher seu bixinho, o alerta confirmando a adoção será exibido. <br>
-Você também pode favoritar um bixinho <3!
+Você também pode favoritar um bixinho <3
 
 
 
