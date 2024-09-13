@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { CardComponent } from '../../components/card/card.component';
 
 @Component({
   selector: 'app-adopt-now',
   standalone: true,
-  imports: [],
+  imports: [CardComponent],
   templateUrl: './adopt-now.component.html',
-  styleUrl: './adopt-now.component.scss'
+  styleUrl: './adopt-now.component.scss',
 })
-export class AdoptNowComponent {
-
-}
+export class AdoptNowComponent {}
