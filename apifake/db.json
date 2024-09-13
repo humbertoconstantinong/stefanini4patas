@@ -1,0 +1,49 @@
+{
+  "animals": [
+    {
+      "name": "Luigy Gonzales",
+      "race": "Buldogue, macho",
+      "photo": "https://i.imgur.com/dVqrVWP.png"
+    },
+    {
+      "name": "Shakira Lopez",
+      "race": "Amarelo, fêmea",
+      "photo": "https://i.imgur.com/dVqrVWP.png"
+    },
+    {
+      "name": "Nico Di Angelo",
+      "race": "Frajola, macho",
+      "photo": "https://i.imgur.com/dVqrVWP.png"
+    },
+    {
+      "name": "Bartolomeu II",
+      "race": "Vira-lata, macho",
+      "photo": "https://i.imgur.com/dVqrVWP.png"
+    },
+    {
+      "name": "Marieta Soares",
+      "race": "Golden, fêmea",
+      "photo": "https://i.imgur.com/dVqrVWP.png"
+    },
+    {
+      "name": "Pity Caramelo",
+      "race": "Vira-lata, fêmea",
+      "photo": "https://i.imgur.com/dVqrVWP.png"
+    },
+    {
+      "name": "Perseu Baptist",
+      "race": "Rajado, macho",
+      "photo": "https://i.imgur.com/dVqrVWP.png"
+    },
+    {
+      "name": "Rosinha Mali",
+      "race": "Escaminha, fêmea",
+      "photo": "https://i.imgur.com/dVqrVWP.png"
+    },
+    {
+      "name": "Luigy Gonzales",
+      "race": "Buldogue, macho",
+      "photo": "https://i.imgur.com/dVqrVWP.png"
+    }
+  ]
+}

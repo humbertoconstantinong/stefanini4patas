@@ -18,13 +18,7 @@
   </div>
 </div>
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 ms-16">
-  <app-card class=""></app-card>
-  <app-card class=""></app-card>
-  <app-card class=""></app-card>
-  <app-card class=""></app-card>
-  <app-card class=""></app-card>
-  <app-card class=""></app-card>
-  <app-card class=""></app-card>
-  <app-card class=""></app-card>
-  <app-card class=""></app-card>
+  @for(animal of animals; track animal){
+  <app-card [animal]="animal" class=""></app-card>
+  }
 </div>
