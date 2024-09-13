@@ -1,27 +1,38 @@
-# StefaniniHumberto
+# Desafio técnico Quatro Patas - (Angular)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+Olá, bem vindo ao repositório deste projeto que simula um sistema de adoção de animais.
 
-## Development server
+# Tecnologias utilizadas: 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Framework Angular 18, Tailwindcss(CSS-inline) e Sweet Alerts(Alerts)
 
-## Code scaffolding
+# Requisitos para compilar o projeto
+O projeto atualizado se encontra na branch **master**, voce pode realizar o download através do
+``git clone https://github.com/humbertoconstantinong/stefanini4patas.git``.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Assim que baixar o projeto, abra um terminal na pasta do mesmo e envie o seguinte comando:
+``npm install`` e logo após que concluir, digite o comando ``npm install -g json-server`` <br>
 
-## Build
+Este último, é responsável por disponibilizar localmente os animais, simulando uma API.
+<br>
+Para iniciar o projeto angular, se dirija até a raiz do projeto e  rode ``npm start`` ou ``ng serve``, fica a sua preferencia e ambos tem o mesmo resultado.
+<br>
+Para finalizar as configurações, entre no diretório  ``/apifake``pelo terminal e digite ``json-server --watch db.json``.
+Nossa API-FAKE estará ligada e  rodando na porta 3000.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Home
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Ao acessar a página inicial ``localhost:4200/`` você vai se deparar com a seguinte tela:![Tela Inicial](https://i.imgur.com/WP80acO.png)
+1- Ao clicar em "Nossas Regras", o sistema vai redirecionar para a página de regras.  
 
-## Running end-to-end tests
+![Nossas Regras](https://i.imgur.com/6UAx5GZ.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2- Ao clicar em "Adote Agora", o sistema vai redirecionar para a página de adoção.  
+![Alerta de deck criado](https://i.imgur.com/JxHPP3i.png)
 
-## Further help
+Depois que escolher seu bixinho, o alerta confirmando a adoção será exibido. <br>
+Você também pode favoritar um bixinho <3
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
