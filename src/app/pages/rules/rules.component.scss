@@ -1,0 +1,52 @@
+@import "../../../variables.scss";
+.container-home {
+  padding-left: 100px;
+  position: relative;
+
+  .container-images {
+    position: absolute;
+    height: 35%;
+    width: 35%;
+    right: 10px;
+    top: 50px;
+  }
+  .info {
+    width: auto;
+    h1 {
+      font-family: "Amatic SC", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      font-size: 80px;
+      line-height: 1.1;
+    }
+    p {
+      width: 500px;
+      line-height: 1.5;
+      font-family: "Nunito", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+  }
+
+  .images {
+    position: relative;
+
+    .image {
+      width: 100%;
+      height: auto;
+    }
+
+    .vector {
+      position: absolute;
+      z-index: 1;
+      width: 90%;
+    }
+
+    .person {
+      position: absolute;
+      right: 10px;
+      width: 90%;
+      z-index: 2;
+    }
+  }
+}
