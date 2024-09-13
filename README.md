@@ -28,7 +28,7 @@ Ao acessar a página inicial ``localhost:4200/`` você vai se deparar com a segu
 
 ![Nossas Regras](https://i.imgur.com/6UAx5GZ.png)
 
-2- Ao clicar em "Adote Agora", o sistema vai redirecionar para a página de adoção.  
+2- Ao clicar em "Adote Agora", o sistema vai redirecionar para a página de adoção. Adianto que tem um pequeno bug de z-index na imagem do cachorro, ele precisa ser ajustado. 
 ![Alerta de deck criado](https://i.imgur.com/JxHPP3i.png)
 
 Depois que escolher seu bixinho, o alerta confirmando a adoção será exibido. <br>
