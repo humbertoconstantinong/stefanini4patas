@@ -8,7 +8,7 @@ Framework Angular 18, Tailwindcss(CSS-inline) e Sweet Alerts(Alerts)
 
 # Requisitos para compilar o projeto
 O projeto atualizado se encontra na branch **master**, voce pode realizar o download através do
-``git clone [https://github.com/humbertoconstantinong/pokemontcg.git](https://github.com/humbertoconstantinong/stefanini4patas.git)``.
+``git clone (https://github.com/humbertoconstantinong/stefanini4patas.git)``.
 
 Assim que baixar o projeto, abra um terminal na pasta do mesmo e envie o seguinte comando:
 ``npm install`` e logo após que concluir, digite o comando ``npm install -g json-server``
