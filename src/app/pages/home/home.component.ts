@@ -10,7 +10,8 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent {
   constructor(private router: Router) {}
-  navigateToRules() {
-    this.router.navigate(['/rules']);
+
+  navigateTo(route: string) {
+    this.router.navigate([route]);
   }
 }

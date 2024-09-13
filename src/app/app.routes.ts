@@ -16,4 +16,11 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./pages/rules/rules.component').then((m) => m.RulesComponent),
   },
+  {
+    path: 'adopt',
+    loadComponent: () =>
+      import('./pages/adopt-now/adopt-now.component').then(
+        (m) => m.AdoptNowComponent
+      ),
+  },
 ];
